@@ -1,0 +1,23 @@
+{
+  "name": "mediator_geolocation",
+  "version": "0.0.1",
+  "description": "HTML5 Geolocation wrapper for use with the mediator.js pub/sub module.",
+  "main": "mediator-geolocation.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "geolocation",
+    "mediator.js",
+    "pubsub"
+  ],
+  "author": "Thomas Britton <britton.tm@gmail.com> (http://tmbritton.com)",
+  "license": "ISC",
+  "dependencies": {
+    "mediator.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+}
