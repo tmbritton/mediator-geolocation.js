@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmbritton/mediator-geolocation.js.git"
+  },
   "keywords": [
     "geolocation",
     "mediator.js",
@@ -13,6 +17,10 @@
   ],
   "author": "Thomas Britton <britton.tm@gmail.com> (http://tmbritton.com)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmbritton/mediator.js/issues"
+  },
+  "homepage": "https://github.com/tmbritton/mediator.js",  
   "dependencies": {
     "mediator.js": "^1.0.0"
   },
