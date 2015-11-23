@@ -1,20 +1,6 @@
-'use strict';
-(function(global, component) {
+var mediator = require('mediator.js');
 
-  if (typeof define === 'function' && define.amd) {
-    // AMD/RequireJS
-    define('mediator_geolocation', ['mediator'], function(mediator) {
-      return component(mediator);
-    });
-  } else if (typeof exports !== 'undefined') {
-    // Node/CommonJS
-    var mediator = require('mediator.js').mediator;
-    exports.mediator_geolocation = component(mediator);
-  } else {
-    // Browser global
-    global.mediator_geolocation = component(global.mediator);
-  }  
-})(this, function(mediator){
+module.exports = (function(){
 
   var geo = {
     geoAvailable: false,
@@ -126,4 +112,4 @@
     watchLocation: geo.watchLocation
   };
 
-});
+})();

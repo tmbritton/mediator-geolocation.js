@@ -1,6 +1,6 @@
 {
   "name": "mediator_geolocation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HTML5 Geolocation wrapper for use with the mediator.js pub/sub module.",
   "main": "mediator-geolocation.js",
   "scripts": {
@@ -27,5 +27,5 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
-  },
+  }
 }
